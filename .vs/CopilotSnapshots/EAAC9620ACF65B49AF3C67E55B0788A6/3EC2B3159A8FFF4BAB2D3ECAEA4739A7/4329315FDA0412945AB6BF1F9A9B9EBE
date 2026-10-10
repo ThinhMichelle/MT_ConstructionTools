@@ -1,0 +1,134 @@
+﻿using Autodesk.Revit.UI;
+using MichelleTool;
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Diagnostics;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Input;
+
+namespace Dimension
+{
+    public class DimensionViewModel : ViewModelValidateBase
+    {
+        private int _Value;
+        private ObservableCollection<string> _itemDim;
+        private string _SelectedDim;
+        private bool _Isgrid;
+        private bool _IsStructuralColumn;
+        private bool _IsStructuralFraming;
+        private bool _IsStructuralFoundation;
+        private bool _IsWall;
+
+        public int Value
+        {
+            get { return _Value; }
+            set
+            {
+                _Value = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public ObservableCollection<string> itemDim
+        {
+            get { return _itemDim; }
+            set
+            {
+                _itemDim = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public string SelectedDim
+        {
+            get { return _SelectedDim; }
+            set
+            {
+                _SelectedDim = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public bool Isgrid
+        {
+            get { return _Isgrid; }
+            set
+            {
+                _Isgrid = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public bool IsStructuralColumn
+        {
+            get { return _IsStructuralColumn; }
+            set
+            {
+                _IsStructuralColumn = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public bool IsStructuralFraming
+        {
+            get { return _IsStructuralFraming; }
+            set
+            {
+                _IsStructuralFraming = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public bool IsStructuralFoundation
+        {
+            get { return _IsStructuralFoundation; }
+            set
+            {
+                _IsStructuralFoundation = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public bool IsWall
+        {
+            get { return _IsWall; }
+            set
+            {
+                _IsWall = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public ICommand Loaded { get; set; }
+        public ICommand OKCmd { get; set; }
+        public ICommand CancelCmd { get; set; }
+        public DimensionViewModel(UIApplication uiapp)
+        {
+            Loaded = new RelayCommand<object>((q) =>
+            {
+                return true;
+            }, (q) =>
+            {
+                Debug.WriteLine("Da chay vo day!");
+            });
+            OKCmd = new RelayCommand<object>(q =>
+            {
+                return ErrorCount == 0;
+            }, (q) =>
+            {
+                MessageboxUtils.Show(Value.ToString(), ShowType.Infomation);
+            });
+            CancelCmd = new RelayCommand<object>(q =>
+            {
+                return true;
+            }, (q) =>
+            {
+                DimensionController.Instance.Window.Close();
+            });
+        }
+    }
+}

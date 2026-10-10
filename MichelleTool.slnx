@@ -1,0 +1,19 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="2020" />
+    <BuildType Name="2021" />
+    <BuildType Name="2022" />
+    <BuildType Name="2023" />
+    <BuildType Name="2024" />
+    <BuildType Name="2025" />
+    <BuildType Name="2027" />
+    <BuildType Name="Debug_2020" />
+    <BuildType Name="Debug_2021" />
+    <BuildType Name="Debug_2022" />
+    <BuildType Name="Debug_2023" />
+    <BuildType Name="Debug_2024" />
+    <BuildType Name="Debug_2025" />
+    <BuildType Name="Debug_2027" />
+  </Configurations>
+  <Project Path="MichelleTool/MichelleTool.csproj" />
+</Solution>

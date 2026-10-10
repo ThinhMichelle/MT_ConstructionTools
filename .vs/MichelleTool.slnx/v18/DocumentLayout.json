@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\02-Code\\MichelleTool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3B653F5-2772-F0CF-4F9E-8C32DCAF305D}|MichelleTool\\MichelleTool.csproj|d:\\02-code\\michelletool\\michelletool\\dimension\\revitapi\\dimensionrevithandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3B653F5-2772-F0CF-4F9E-8C32DCAF305D}|MichelleTool\\MichelleTool.csproj|solutionrelative:michelletool\\dimension\\revitapi\\dimensionrevithandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3B653F5-2772-F0CF-4F9E-8C32DCAF305D}|MichelleTool\\MichelleTool.csproj|d:\\02-code\\michelletool\\michelletool\\dimension\\mvvm\\viewmodel\\dimensionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3B653F5-2772-F0CF-4F9E-8C32DCAF305D}|MichelleTool\\MichelleTool.csproj|solutionrelative:michelletool\\dimension\\mvvm\\viewmodel\\dimensionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DimensionViewModel.cs",
+              "DocumentMoniker": "D:\\02-Code\\MichelleTool\\MichelleTool\\Dimension\\MVVM\\ViewModel\\DimensionViewModel.cs",
+              "RelativeDocumentMoniker": "MichelleTool\\Dimension\\MVVM\\ViewModel\\DimensionViewModel.cs",
+              "ToolTip": "D:\\02-Code\\MichelleTool\\MichelleTool\\Dimension\\MVVM\\ViewModel\\DimensionViewModel.cs",
+              "RelativeToolTip": "MichelleTool\\Dimension\\MVVM\\ViewModel\\DimensionViewModel.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAwwLcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T03:38:31.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DimensionRevitHandler.cs",
+              "DocumentMoniker": "D:\\02-Code\\MichelleTool\\MichelleTool\\Dimension\\RevitAPI\\DimensionRevitHandler.cs",
+              "RelativeDocumentMoniker": "MichelleTool\\Dimension\\RevitAPI\\DimensionRevitHandler.cs",
+              "ToolTip": "D:\\02-Code\\MichelleTool\\MichelleTool\\Dimension\\RevitAPI\\DimensionRevitHandler.cs",
+              "RelativeToolTip": "MichelleTool\\Dimension\\RevitAPI\\DimensionRevitHandler.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAjwE4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T08:17:04.43Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

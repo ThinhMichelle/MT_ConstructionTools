@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>MichelleTool</Name>
+		<Assembly>MichelleTool\MichelleTool.dll</Assembly>
+		<AddInId>3afed537-1bc9-46fa-be79-b14f47ddce96</AddInId>
+		<FullClassName>MichelleTool.App</FullClassName>
+		<VendorId>21a7506e-3e2a-446e-b3b7-b0682960ddf0</VendorId>
+		<VendorDescription>MichelleTool</VendorDescription>
+	</AddIn>
+</RevitAddIns>
